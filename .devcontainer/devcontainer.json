@@ -1,4 +1,13 @@
 {
-  "extensions": ["github.copilot"],
-  "postAttachCommand": "copilot setup"
+  "name": "GitHub Copilot",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot"
+      ]
+    }
+  }
 }
